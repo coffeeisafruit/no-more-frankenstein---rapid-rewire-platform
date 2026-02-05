@@ -1,1 +1,6 @@
-/* App styles; Tailwind is loaded via CDN in index.html */
+/* Design tokens and overrides */
+.selection\:bg-amber-100 ::selection,
+.selection\:bg-amber-100::selection {
+  background-color: #fef3c7;
+  color: #78350f;
+}

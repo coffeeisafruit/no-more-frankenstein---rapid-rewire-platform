@@ -3,7 +3,7 @@ import React from 'react';
 import { Feature, Section } from './types';
 
 const IconWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 mb-4 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+  <div className="w-11 h-11 rounded-lg bg-amber-50 border border-amber-100 flex items-center justify-center text-amber-700 mb-4">
     {children}
   </div>
 );
